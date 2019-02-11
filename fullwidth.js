@@ -1,0 +1,1 @@
+$.post( "./php/fullwidth.php", { "fullwidth": $(".node").parent().outerWidth()} );

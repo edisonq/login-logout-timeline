@@ -1,0 +1,64 @@
+body { 
+    background-color: #fff; 
+    font: 1em Helvetica, Arial; 
+    color: #000; 
+    margin: 0px;
+    padding: 0px;
+}
+div .node {
+    display: inline;
+}
+.start-div {
+    color: #000;
+    min-height: fit-content;
+    height: 50px;
+    display: inline-block !important;
+}
+.workflow-editor
+{
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+    left: 0px;
+    top:50px;
+    background: url('images/ruler-zoomout-11hours.jpg');
+    background-position-y: 78px;
+    background-repeat: no-repeat;
+    background-size: 100% 30px;
+
+}
+.workflow-editor-in {
+    background: url('images/ruler-zoomin-11hours.jpg') !important;
+    background-position-y: 78px !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 30px !important;
+}
+
+.workflow-editor .node
+{
+    position: absolute;
+
+    min-width: 64px;
+    min-height: 64px;
+    
+}
+.start{
+    width: 50px;
+    height: auto;
+}
+.end {
+    width: 50px;
+    height: auto;
+}
+.tool {
+    width: 50px;
+    height: auto;
+
+}
+.active {
+    border: 1px solid;
+}
+.clear-marker {
+    margin: 80px;
+}

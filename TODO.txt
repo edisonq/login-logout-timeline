@@ -1,0 +1,19 @@
+DONE: 
+- draggable
+- limit in container
+- put value x,y
+- create tool box for in and out
+- zoom in and zoom out sa time 
+- put the time ruler
+- reload when resize
+- pointer position in database/cache
+- pointer display to specific positon after refresh
+- draggable call to php after dragging, give position, type of pointer
+- when click create in button, when tool box is in
+- when click create out button, when tool box is out
+
+- refresh responsive
+
+pending
+
+- implement bootstrap
